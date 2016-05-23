@@ -1,0 +1,25 @@
+<plugin name='jesque-manager' version='1.0.6' grailsVersion='2.4 &gt; *'>
+  <author>Philipp Eschenbach</author>
+  <authorEmail>philipp@uberall.com</authorEmail>
+  <title>Jesque Manager Plugin</title>
+  <description>Web Frontend to manage Jesque queues, workers and jobs.
+</description>
+  <documentation>http://grails.org/plugin/jesque-manager</documentation>
+  <type>JesqueManagerGrailsPlugin</type>
+  <resources>
+    <resource>JesqueManagerUrlMappings</resource>
+    <resource>jesque.manager.AbstractJesqueManagerController</resource>
+    <resource>jesque.manager.JesqueManagerController</resource>
+    <resource>jesque.manager.JesqueManagerJobController</resource>
+    <resource>jesque.manager.JesqueManagerQueueController</resource>
+    <resource>jesque.manager.JesqueManagerWorkerController</resource>
+    <resource>jesque.manager.JesqueConfigService</resource>
+    <resource>jesque.manager.JesqueFailureService</resource>
+    <resource>jesque.manager.JesqueKeysService</resource>
+    <resource>jesque.manager.JesqueManagerService</resource>
+    <resource>jesque.manager.JesqueQueuesService</resource>
+    <resource>jesque.manager.JesqueScheduledService</resource>
+    <resource>jesque.manager.JesqueWorkersService</resource>
+    <resource>jesque.manager.JesqueManagerTagLib</resource>
+  </resources>
+</plugin>
