@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.errbuddy.plugins</groupId>
+  <artifactId>babel-asset-pipeline</artifactId>
+  <versioning>
+    <release>1.4.5-java7</release>
+    <versions>
+      <version>1.4.5-java7</version>
+    </versions>
+    <lastUpdated>20160719132420</lastUpdated>
+  </versioning>
+</metadata>
